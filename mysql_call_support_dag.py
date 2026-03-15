@@ -22,8 +22,7 @@ default_args = {
     default_args=default_args,
     start_date=datetime(2024, 3, 1),
     schedule="@hourly",
-    catchup=False,
-    tags=["assignment", "bonus_included"]
+    catchup=False
 )
 def support_call_pipeline():
 
