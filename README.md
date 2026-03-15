@@ -1,0 +1,3 @@
+The core purpose of this project is to build an automated, production-ready ETL pipeline that transforms fragmented support data into actionable insights. By synchronizing a relational MySQL database with unstructured JSON files, the system creates a single "source of truth" in DuckDB.
+
+Key technical goals include ensuring idempotency to prevent data duplication, implementing incremental loading via watermarks for efficiency, and enforcing data quality through automated validation. This architecture demonstrates how to securely manage credentials and monitor pipeline health through structured logging and retry strategies.
